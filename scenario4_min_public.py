@@ -198,7 +198,7 @@ def solve_system_original_bmm(
 
 
 # ─────────────────────────────────────────────────────────────
-
+# Extend BMM in paper (Eq. 2.11)
 def bergman_min_public(y, t_val: float, params: Dict[str, float], meal_data: pd.DataFrame, current_start: pd.Timestamp, cfg: Config):
     G, X, I = y
     d_meal = meal_disturbance(
