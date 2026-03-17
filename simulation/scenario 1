@@ -1,3 +1,19 @@
+"""
+Scenario 1: Illustrative Simulation of GI-dependent Glucose Dynamics
+
+This script provides a simplified simulation used to generate figure 2
+in the manuscript. It is based on a reduced-form extension of the Bergman model
+with a bi-exponential meal absorption kernel and GI-dependent modulation.
+
+IMPORTANT:
+- This implementation is intended for figure reproduction and conceptual illustration only.
+- It does NOT represent the full predictive framework used in Scenario 3 or Scenario 4.
+- Parameter values are fixed and not subject-specific.
+- No parameter optimisation or real-data calibration is performed.
+
+The full personalised prediction pipeline is provided separately in Scenario 4.
+"""
+
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
