@@ -1,7 +1,7 @@
 """
 Baseline: Basic Bergman Minimal Model (without GI and Circadian Factors)
 
-This is the original Bergman Minimal Model (1979) for comparison with the extended model.
+This is the baseline Bergman Minimal Model for comparison with the extended model.
 No GI effects, no circadian rhythms, simple meal disturbance.
 """
 
