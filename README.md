@@ -18,7 +18,7 @@ This package is **not** a full reproduction of every figure, table, or internal 
 
 ## Files
 
-- `scenario4_min_public.py` — main minimal reproducible script
+- `scenario4_min_public.py` — main minimal reproducible demo script
 - `run_all_subjects.py` — optional batch runner for multiple subject CSV files
 - `requirements.txt` — Python dependencies
 - `LICENSE` — license for public release
